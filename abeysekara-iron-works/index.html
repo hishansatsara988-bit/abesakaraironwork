@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="si">
+<head>
+  <meta charset="UTF-8">
+  <title>අබේසේකර Iron Works</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { margin:0; font-family: Arial, sans-serif; background:#f4f4f4; }
+    header { background:#1f2933; color:#fff; padding:25px; text-align:center; }
+    nav { background:#374151; padding:10px; text-align:center; }
+    nav a { color:#fff; margin:0 12px; text-decoration:none; font-weight:bold; }
+    /* Remove nav dots / bullets */
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul ul {
+  display: none;
+}
+
+    section { padding:30px; }
+    h2 { color:#111827; }
+    .services, .gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+}
+    .card {
+      background:#fff;
+      padding:15px;
+      border-radius:10px;
+      box-shadow:0 4px 10px rgba(0,0,0,0.1);
+      text-align:center;
+    }
+    .gallery img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+    .call-float {
+  position: fixed;
+  bottom: 90px;
+  right: 20px;
+  background: #007bff;
+  color: white;
+  font-size: 26px;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 55px;
+  z-index: 9999;
+}
+
+.wa-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25D366;
+  color: white;
+  font-size: 26px;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 55px;
+  z-index: 9999;
+}
+
+    footer {
+      background:#1f2933;
+      color:#fff;
+      text-align:center;
+      padding:15px;
+    }
+
+    /* WhatsApp Floating Button */
+    .wa-float {
+      position: fixed;
+      width: 55px;
+      height: 55px;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25D366;
+      color: #fff;
+      border-radius: 50%;
+      text-align: center;
+      font-size: 28px;
+      line-height: 55px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      z-index: 1000;
+      text-decoration: none;
+    }
+    .wa-float:hover { background:#1ebe5d; }
+  </style>
+  <style>
+.wa-float {
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25D366;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 28px;
+  line-height: 55px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  z-index: 1000;
+  text-decoration: none;
+}
+
+.wa-float:hover {
+  background: #1ebe5d;
+}
+
+/* SEO hidden text */
+.seo-text {
+  position: absolute;
+  left: -9999px;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+</style>
+
+
+
+</head> 
+ <body>
+
+ <header>
+  <p class="seo-text">
+  Gate Sri Lanka | Main Gate Designs | Simple Gate Design Sri Lanka |
+  Sliding Gate Designs Sri Lanka | Steel Gate Design | Metal Gate Design
+</p>
+ 
+  <h1>අබේසේකර Iron Works</h1>
+  <p>ගේට්ටු • Window Grill • Fence • සියලු Welding වැඩ</p>
+</header>
+<nav class="top-nav">
+  <ul>
+    <li class="active"><a href="#">HOME</a></li>
+    <li><a href="#">ABOUT US</a></li>
+    <li class="dropdown">
+      <a href="#">PRODUCTS ▾</a>
+      <ul class="dropdown-menu">
+        <li><a href="#">Gates</a></li>
+        <li><a href="#">Grills</a></li>
+        <li><a href="#">Fences</a></li>
+      </ul>
+    </li>
+    <li class="dropdown">
+      <a href="#">SERVICES ▾</a>
+      <ul class="dropdown-menu">
+        <li><a href="#">Welding</a></li>
+        <li><a href="#">Fabrication</a></li>
+      </ul>
+    </li>
+    <li><a href="#">CONTACT US</a></li>
+    <li class="search">🔍</li>
+  </ul>
+</nav>
+
+<nav>
+  <a href="#services">සේවාවන්</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="services">
+  <h2>අපගේ සේවාවන්</h2>
+  <div class="services">
+    <div class="card">Gate Design & Fabrication</div>
+    <div class="card">Window / Grill Works</div>
+    <div class="card">Fence Works</div>
+    <div class="card">Stair & Hand Rail</div>
+    <div class="card">සියලු Welding වැඩ</div>
+  </div>
+</section>
+
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>📞 Phone: <strong>077 941 0295</strong></p>
+  <p>📍 සේවා කරන ප්‍රදේශ: හක්මන / දෙයියන්දර</p>
+</section><section id="gallery">
+  <h2>Design Gallery</h2>
+
+  <div class="gallery">
+    <img src="photos/photo1.jpg" alt="">
+    <img src="photos/photo2.jpg" alt="">
+    <img src="photos/photo3.jpg" alt="">
+    <img src="photos/photo4.jpg" alt="">
+    <img src="photos/photo5.jpg" alt="">
+    <img src="photos/photo6.jpg" alt="">
+    <img src="photos/photo7.jpg" alt="">
+    <img src="photos/photo8.jpg" alt="">
+    <img src="photos/photo9.jpg" alt="">
+    <img src="photos/photo10.jpg" alt="">
+
+    <img src="photos/photo11.jpg" alt="">
+    <img src="photos/photo12.jpg" alt="">
+    <img src="photos/photo13.jpg" alt="">
+    <img src="photos/photo14.jpg" alt="">
+    <img src="photos/photo15.jpg" alt="">
+    <img src="photos/photo16.jpg" alt="">
+    <img src="photos/photo17.jpg" alt="">
+    <img src="photos/photo18.jpg" alt="">
+    <img src="photos/photo19.jpg" alt="">
+    <img src="photos/photo20.jpg" alt="">
+
+    <img src="photos/photo21.jpg" alt="">
+    <img src="photos/photo22.jpg" alt="">
+    <img src="photos/photo23.jpg" alt="">
+    <img src="photos/photo24.jpg" alt="">
+    <img src="photos/photo25.jpg" alt="">
+    <img src="photos/photo26.jpg" alt="">
+    <img src="photos/photo27.jpg" alt="">
+    <img src="photos/photo28.jpg" alt="">
+    <img src="photos/photo29.jpg" alt="">
+    <img src="photos/photo30.jpg" alt="">
+  </div>
+</section>
+
+
+<section id="gallery">
+  <h2>Design Gallery</h2>
+
+  <div class="gallery">
+    <img src="photos/1.jpg">
+    <img src="photos/2.jpg">
+    <img src="photos/3.jpg">
+  </div>
+</section>
+
+<!-- ⬇⬇ මෙතන paste කරන්න ⬇⬇ -->
+
+<section id="videos">
+  <h2>Our Work Videos</h2>
+
+  <div class="gallery">
+    <video controls>
+      <source src="videos/video1.mp4" type="video/mp4">
+    </video>
+
+    <video controls>
+      <source src="videos/video2.mp4" type="video/mp4">
+    </video>
+  </div>
+</section><section id="hardware-links">
+  <h2>Hardware Partners</h2>
+  <ul>
+    <li>
+      <a href="https://asirihardware.lk/" target="_blank">
+        Asiri Hardware | Sri Lanka
+      </a>
+    </li>
+
+    <li>
+      <a href="https://hardwares.lk/" target="_blank">
+        Wadabima Hardware | Sri Lanka
+      </a>
+    </li>
+
+    <li>
+      Central Hardware – Walasmulla  
+      <br>📞 <a href="tel:0777888396">077 788 8396</a>
+    </li>
+
+    <li>
+      PKG Hardware – Walasmulla  
+      <br>📞 <a href="tel:0777554471">077 755 4471</a>
+    </li>
+
+    <li>
+      Jayamali Hardware – Walasmulla  
+      <br>📞 <a href="tel:0712243144">071 224 3144</a>
+    </li>
+  </ul>
+</section>
+    
+
+    <footer>
+  <p>
+    ඔබට අවශ්‍ය Gates, Grills සහ Welding Work සඳහා
+    විවිධ design මෙතනින් බැලීමට පුළුවන් –
+    <a href="https://www.shutterstock.com/search/bar-gates" target="_blank">
+      Design බලන්න
+    </a>
+  </p>
+
+  <p>© 2026 අබිසේකර Iron Works</p>
+</footer>
+
+
+<!-- WhatsApp Floating Button -->
+<a href="https://wa.me/94779410295" class="wa-float" target="_blank">💬</a>
+   
+ <!-- Call Floating Button -->    
+ <a href="tel:0779410295" class="call-float">📞</a>
+
+</body>                                                                                                            
+
+</html>
